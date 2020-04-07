@@ -1,0 +1,57 @@
+body , html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Shadows Into Light', cursive;
+	background:url(books.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	margin: auto 0;
+}
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:10px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.main-header{
+	border:5px solid grey;
+	text-align: center;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-weight:bolder;
+	font-size: 4rem;
+
+}
+h2{
+	color: white;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.btn{
+	font-weight: bolder;
+	border-radius: 600px;
+	border: 10px solid white;
+}
+.btn-outline-light{
+	border-color: tan;
+	align-items: center;
+}
+.btn-outline-light:hover{
+	background-color: grey;
+}

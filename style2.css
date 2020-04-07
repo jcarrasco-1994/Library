@@ -1,0 +1,165 @@
+:root{
+	--primary:white;
+	--secondary:grey;
+	--dark:black;
+}
+html{
+	background:url(books.jpg) no-repeat center center fixed;
+	background-size: cover;
+	box-sizing: border-box;
+}	
+
+body{
+	font-family: 'Shadows Into Light', cursive;
+	color:var(--primary);
+	margin: auto;
+	line-height: 1.2;
+
+}
+.btn{
+	background-color: var(--primary);
+	color: black;
+	padding: 0.5rem 1.4rem;
+	text-decoration: none;
+	border: 0;
+	box-shadow: 5px 5px var(--dark);
+}
+
+img{
+	max-width: 100%;
+	box-shadow: 5px 5px var(--dark);
+}
+.wrapper{
+	display: grid;
+	grid-gap: 10px;
+}
+
+.main-nav ul{
+	display: grid;
+	grid-gap: 15px;
+	list-style:none;
+	list-style: none;
+	grid-template-columns: repeat(5, 1fr);
+	padding: 5px 30px;
+}
+.main-nav a{
+	color:var(--primary);
+	font-weight: bolder;
+	font-size: 2rem;
+	text-decoration: none;
+	list-style: none;
+	border:0.2rem solid white;
+	display: block;
+	text-align: center;
+	background:var(--secondary); 
+	box-shadow: 5px 5px var(--dark);
+}
+a:hover{
+	color:var(--primary);
+	background:var(--secondary);
+}
+
+.top-container{
+	display: grid;
+
+		
+}
+.showcase{
+	background:grey;
+	background-size: cover;
+	display: grid;
+	height: 95vh;
+	border: 0.2rem solid white;
+	margin: 1rem;
+	padding: 0.8rem;
+	box-shadow: 5px 5px var(--dark);
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.info{
+	display:grid;
+	background: grey;
+	font-size: 1.2rem;
+	border: 0.2rem solid white;
+	margin: 1rem;
+	padding: 0.8rem;
+	box-shadow: 5px 5px var(--dark);
+	grid-template-columns: repeat(2,1fr);
+}
+.box-a{
+	display: block;
+}
+.box-a h1{
+	text-align: center;
+}
+.box-b{
+	display: block;
+	text-align: center;
+}
+.social{
+	flex-direction: column;
+	justify-content: center;
+	background:grey;
+	display:grid;
+	border: 0.2rem solid white;
+	margin: 1rem;
+	padding: 0.8rem;
+	box-shadow: 5px 5px var(--dark);
+}
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/*-----FOOTER-----*/
+footer{
+	color: var(--primary);
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bolder;
+	padding: 1rem;
+	margin: 1rem;	
+	border:0.2rem solid white;
+	background:var(--secondary);
+	box-shadow: 5px 5px var(--dark);
+}
+
+
+
+@media(max-width: 600px){
+	.main-nav ul{
+		font-size: 1em;
+		padding: 0;
+		grid-template-columns: 2fr;
+	}
+	.info{
+		grid-template-columns: 1fr;
+	}
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
